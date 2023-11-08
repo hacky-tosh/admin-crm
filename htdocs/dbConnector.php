@@ -11,7 +11,7 @@ var $link;
         $host = 'localhost';
         $db = 'capstone';
         $user = 'root';
-        $pass = '';
+        $pass = 'root';
 
         // Connect to the database
         $this->link = mysqli_connect($host, $user, $pass,$db);
@@ -28,7 +28,7 @@ function DbConnector(){
         $host = 'localhost';
         $db = 'capstone';
         $user = 'root';
-        $pass = '';
+        $pass = 'root';
 
         // Connect to the database
         $this->link = mysqli_connect($host, $user, $pass,$db);
