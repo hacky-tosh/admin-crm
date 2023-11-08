@@ -8,7 +8,7 @@ var $link;
     public function __construct() {
         ob_start();
   // Get the main settings from the array we just loaded
-        $host = 'localhost';
+        $host = 'retrievefit.com';
         $db = 'capstone';
         $user = 'root';
         $pass = 'root';
@@ -25,7 +25,7 @@ var $link;
 function DbConnector(){
 
         // Get the main settings from the array we just loaded
-        $host = 'localhost';
+        $host = 'retrievefit.com';
         $db = 'capstone';
         $user = 'root';
         $pass = 'root';

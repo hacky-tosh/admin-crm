@@ -1,3 +1,3 @@
 <?php
-$conn = mysqli_connect('localhost','root','root','capstone') or die(mysqli_error());
+$conn = mysqli_connect('retrievefit.com','root','root','capstone') or die(mysqli_error());
 ?>
