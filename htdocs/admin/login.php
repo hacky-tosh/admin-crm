@@ -14,8 +14,7 @@
 		$_SESSION['id']=$row['user_id'];
 		
 		echo 'true';
-		
-		mysqli_query($conn,"insert into user_log (username,login_date,user_id)values('$username',NOW(),".$row['user_id'].")")or die(mysqli_error());
+		mysqli_query($conn,"INSERT INTO user_log (username, login_date, user_id, logout_date) VALUES ('$username', NOW(), ".$row['user_id'].", NOW())") or die(mysqli_error());
 		 }else{ 
 		echo 'false';
 		}	
